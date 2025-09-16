@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* _____________________ Variables  __________________ */
+
+:root {
+    --ff-primary: 'Roboto', sans-serif;
+    --fw-reg: 400;
+    --fw-bold: 700;
+
+    --fs-h1: 4.5rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.1rem;
+}
+
+
+/* _____________________ Typography  __________________ */
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-body);
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    color: black;
+    margin: 0;
+}
+
+main {
+    padding-inline: 5em;
+}
+
+.wrapper {
+    max-inline-size: 1200px;
+    /* distribute remaining space automatically */
+    margin-inline: auto;
+}
+
+
+/* _____________________ reusable styles _____________________ */
+
+
+
+
+
+
+
+/* _____________________ nav _____________________ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 6rem;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav > h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+.logo-nav > * {
+    margin-inline-start: 0.8rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 0.8rem;
+}
+
+header a:hover {
+    color: grey;
+}
+
+header li {
+    font-size: var(--fs-h3);
+    display: inline-block;
+    margin-inline-end: 0.8rem;
+}
+
+
+/* _____________________ main _____________________ */
+
+section {
+    margin-block: 3em;
+}
+
+.title {
+    text-align: center;
+}
+
+.title > .title-main {
+    font-size: 3rem;
+}
+
+.title > p {
+    font-size: 1.5rem;
+    margin-block: 1rem;
+}
+
+/* getting started */
+.getting-started {
+    margin-block-start: 7em;
+}
+
+.getting-started > p {
+    font-size: 1.4em;
+}
+
+/* _____________________ footer _____________________ */
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #0c7fa7;
+    color: white;
+}
