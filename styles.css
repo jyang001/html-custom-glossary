@@ -62,11 +62,13 @@ main {
 
 /* _____________________ reusable styles _____________________ */
 
+.border-radius-50 {
+    border-radius: 50%;
+}
 
-
-
-
-
+.fs-3rem {
+    font-size: 3rem;
+}
 
 /* _____________________ nav _____________________ */
 
@@ -79,7 +81,6 @@ header {
 }
 
 .logo {
-    border-radius: 50%;
     height: 60px;
     width: 60px;
 }
@@ -127,10 +128,6 @@ section {
     text-align: center;
 }
 
-.title > .title-main {
-    font-size: 3rem;
-}
-
 .title > p {
     font-size: 1.5rem;
     margin-block: 1rem;
@@ -138,7 +135,7 @@ section {
 
 /* getting started */
 .getting-started {
-    margin-block-start: 7em;
+    margin-block-start: 5em;
 }
 
 .getting-started > p {
@@ -148,6 +145,7 @@ section {
 /* _____________________ footer _____________________ */
 footer {
     padding: 2rem;
+    margin-block: 5em;
     text-align: center;
     background-color: #0c7fa7;
     color: white;
