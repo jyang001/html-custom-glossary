@@ -26,7 +26,6 @@ html {
     --fs-body: 1.1rem;
 }
 
-
 /* _____________________ Typography  __________________ */
 
 h1,
@@ -117,7 +116,6 @@ header li {
     margin-inline-end: 0.8rem;
 }
 
-
 /* _____________________ main _____________________ */
 
 section {
@@ -129,8 +127,14 @@ section {
 }
 
 .title > p {
-    font-size: 1.5rem;
-    margin-block: 1rem;
+    font-size: 1.5em;
+    margin-block: 1em;
+}
+
+.front-page-img {
+    margin-inline: auto;
+    height: 20%;
+    width: 20%;
 }
 
 /* getting started */
@@ -139,7 +143,7 @@ section {
 }
 
 .getting-started > p {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 /* _____________________ footer _____________________ */
