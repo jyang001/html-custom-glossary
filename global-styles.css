@@ -24,6 +24,13 @@ html {
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1.1rem;
+
+    --base-clr: #11121a;
+    --line-clr: #42434a;
+    --hover-clr: #222533;
+    --text-clr: #e6e5ef;
+    --accent-clr: #5e63ff;
+    --secondary-text-clr: #b0b3c1;
 }
 
 /* _____________________ Typography  __________________ */
@@ -45,17 +52,36 @@ body {
     font-size: var(--fs-body);
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
     color: black;
-    margin: 0;
 }
 
+
 main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+aside {
+    border: 3px solid blue;
+    padding-inline: 3rem;
+    color: var(--text-clr);
+    background-color: var(--accent-clr);
+}
+
+aside a {
+    color: var(--text-clr);
+}
+
+aside a:hover {
+    color: var(--hover-clr);
+}
+
+.main-page {
     padding-inline: 5em;
 }
 
 .wrapper {
     max-inline-size: 1200px;
-    /* distribute remaining space automatically */
-    margin-inline: auto;
+    margin-inline: 3%;
 }
 
 

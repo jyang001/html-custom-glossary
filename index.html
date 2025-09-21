@@ -17,23 +17,54 @@
 
             <nav class="main-nav" aria-lable="Main navigation">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="title">
-                <img class="front-page-img border-radius-50" src="img/front-page-img.png" alt="front page image">
-                <span class="fs-3rem"><strong>HTML</strong> cheatsheat</span>
-                <p>Quick Front End Reference sheet for common syntax</p>
-            </section>
-            <section class="getting-started">
-                <h2>About this Page</h2>
-                <p>Learning HTML and especially CSS often involves navigating through a wide range of concepts, techniques, and best practices. It can be challenging to remember everything or quickly find the right solution when you need it. I created this website as a personal reference to organize and store useful insights, tips, and resources related to HTML and CSS</p>
-            </section>
-
+            <aside class="sidebar">
+                <ul>
+                    <span class="sidebar-heading">Topics</span>
+                    <li class="active">
+                        <a href="new-page.html">
+                            <span>Page 1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="dropdown-btn">
+                            <span>Add More</span>
+                        </button>
+                        <ul class="sub-menu">
+                            <li><a href="width-page.html">CSS Width</a></li>
+                            <li><a href="new-page.html">Document</a></li>
+                            <li><a href="new-page.html">Project</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="dropdown-btn">
+                            <span>TODO List</span>
+                        </button>
+                        <ul class="sub-menu">
+                            <li><a href="new-page.html">TODO 1</a></li>
+                            <li><a href="new-page.html">TODO 2</a></li>
+                            <li><a href="new-page.html">TODO 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <div class="main-page">
+                <section class="title">
+                    <img class="front-page-img border-radius-50" src="img/front-page-img.png" alt="front page image">
+                    <span class="fs-3rem"><strong>HTML</strong> cheatsheat</span>
+                    <p>Quick Front End Reference sheet for common syntax</p>
+                </section>
+                <section class="getting-started">
+                    <h2>About this Page</h2>
+                    <p>Learning HTML and especially CSS often involves navigating through a wide range of concepts, techniques, and best practices. It can be challenging to remember everything or quickly find the right solution when you need it. I created this website as a personal reference to organize and store useful insights, tips, and resources related to HTML and CSS</p>
+                </section>
+            </div>
         </main>
         <footer></footer>
     </div>
