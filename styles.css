@@ -1,9 +1,5 @@
 /* _____________________ main _____________________ */
 
-section {
-    margin-block: 3em;
-}
-
 .title {
     text-align: center;
 }
@@ -19,7 +15,6 @@ section {
     width: 20%;
 }
 
-/* getting started */
 .getting-started {
     margin-block-start: 5em;
 }
@@ -29,10 +24,15 @@ section {
 }
 
 /* _____________________ footer _____________________ */
+
 footer {
     padding: 2rem;
     margin-block: 5em;
     text-align: center;
     background-color: #0c7fa7;
     color: white;
+}
+
+.main-page {
+    /* border: 3px solid yellow; */
 }

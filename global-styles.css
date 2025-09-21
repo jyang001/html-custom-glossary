@@ -21,8 +21,8 @@ html {
     --fw-bold: 700;
 
     --fs-h1: 4.5rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
+    --fs-h2: 2.75rem;
+    --fs-h3: 2.25rem;
     --fs-body: 1.1rem;
 
     --base-clr: #11121a;
@@ -54,7 +54,6 @@ body {
     color: black;
 }
 
-
 main {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -80,7 +79,7 @@ aside a:hover {
 }
 
 .wrapper {
-    max-inline-size: 1200px;
+    max-inline-size: 1600px;
     margin-inline: 3%;
 }
 
@@ -102,7 +101,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-block-start: 1em;
-    margin-block-end: 6rem;
+    margin-block-end: 3em;
 }
 
 .logo {
@@ -118,18 +117,18 @@ header {
 .logo-nav > h3 {
     color: white;
     font-weight: normal;
-    font-size: 1.75rem;
-    line-height: 2rem;
+    font-size: 1.75em;
+    line-height: 2em;
 }
 
 .logo-nav > * {
-    margin-inline-start: 0.8rem;
+    margin-inline-start: 0.8em;
 }
 
 header a {
     text-decoration: none;
     color: white;
-    margin-inline-start: 0.8rem;
+    margin-inline-start: 0.8em;
 }
 
 header a:hover {
@@ -137,7 +136,13 @@ header a:hover {
 }
 
 header li {
-    font-size: var(--fs-h3);
+    font-size: 1.2em;
+    font-weight: var(--fw-bold);
     display: inline-block;
-    margin-inline-end: 0.8rem;
+}
+
+/* _____________________ main _____________________ */
+
+section {
+    margin-block: 3em;
 }
