@@ -94,6 +94,11 @@ aside a:hover {
     font-size: 3rem;
 }
 
+.fc-blue-bold {
+    font-weight: bold;
+    color:blue;
+}
+
 /* _____________________ nav _____________________ */
 
 header {
@@ -143,6 +148,12 @@ header li {
 
 /* _____________________ main _____________________ */
 
-section {
+.title {
     margin-block: 3em;
+}
+
+.new-section {
+    border: 2px solid purple;
+    padding: 1em;
+    margin-block: 1em;
 }
