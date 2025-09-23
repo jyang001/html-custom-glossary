@@ -2,6 +2,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -58,31 +60,6 @@ main {
     display: grid;
     grid-template-columns: auto 1fr;
 }
-
-aside {
-    border: 3px solid blue;
-    padding-inline: 3rem;
-    color: var(--text-clr);
-    background-color: var(--accent-clr);
-}
-
-aside a {
-    color: var(--text-clr);
-}
-
-aside a:hover {
-    color: var(--hover-clr);
-}
-
-.main-page {
-    padding-inline: 5em;
-}
-
-.wrapper {
-    max-inline-size: 1600px;
-    margin-inline: 3%;
-}
-
 
 /* _____________________ reusable styles _____________________ */
 
@@ -146,6 +123,52 @@ header li {
     display: inline-block;
 }
 
+/* _____________________ sidebar _____________________ */
+
+aside {
+    height: 100vh;
+    width: 250px;
+    padding: 5px 1em;
+    color: var(--text-clr);
+    background-color: var(--base-clr);
+    border-right: 1px solid var(--line-clr);
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li.active a {
+    color: var(--accent-clr);
+}
+
+aside a, aside .dropdown-btn {
+    border-radius: 0.5em;
+    padding: 0.85em;
+    text-decoration: none;
+    color: var(--text-clr);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+aside a {
+    color: var(--text-clr);
+}
+
+aside a:hover {
+    color: var(--hover-clr);
+}
+
+.dropdown-btn {
+    width: 100%;
+    /* text-align: left; */
+    background: none;
+    /* border: none; */
+    font: inherit;
+    cursor: pointer;
+}
+
 /* _____________________ main _____________________ */
 
 .title {
@@ -157,3 +180,13 @@ header li {
     padding: 1em;
     margin-block: 1em;
 }
+
+.main-page {
+    padding-inline: 5em;
+}
+
+.wrapper {
+    max-inline-size: 1600px;
+    margin-inline: 3%;
+}
+
