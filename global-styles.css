@@ -41,7 +41,7 @@ h1,
 h2,
 h3 {
     line-height: 1;
-    margin: 0;
+    margin-block-end: 0.5em;
 }
 
 h1 { font-size: var(--fs-h1) }
@@ -178,7 +178,7 @@ aside a:hover {
 .new-section {
     border: 2px solid purple;
     padding: 1em;
-    margin-block: 1em;
+    margin-block: 2em;
 }
 
 .main-page {
