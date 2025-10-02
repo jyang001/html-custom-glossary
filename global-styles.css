@@ -152,21 +152,30 @@ aside a, aside .dropdown-btn {
     gap: 1em;
 }
 
-aside a {
+/* aside a {
     color: var(--text-clr);
 }
 
 aside a:hover {
     color: var(--hover-clr);
-}
+} */
 
 .dropdown-btn {
     width: 100%;
     /* text-align: left; */
     background: none;
-    /* border: none; */
+    border: none;
     font: inherit;
     cursor: pointer;
+}
+
+.sidebar svg {
+    flex-shrink: 0;
+    fill: var(--text-clr);
+}
+
+.sidebar a:hover, .sidebar .dropdown-btn:hover {
+    background-color: var(--hover-clr);
 }
 
 /* _____________________ main _____________________ */
