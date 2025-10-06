@@ -178,6 +178,27 @@ aside a:hover {
     background-color: var(--hover-clr);
 }
 
+.sidebar .sub-menu {
+    display: grid;
+    transition: 300ms ease-in-out;
+    grid-template-rows: 0fr;
+    > div {
+        overflow: hidden;
+    }
+}
+
+.sidebar .sub-menu.show {
+    grid-template-rows: 1fr;
+}
+
+.dropdown-btn .material-icons {
+    transition: 200ms ease;
+}
+
+.rotate .material-icons {
+    rotate: 180deg;
+}
+
 /* _____________________ main _____________________ */
 
 .title {
