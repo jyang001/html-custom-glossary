@@ -228,6 +228,10 @@ aside a:hover {
     }
 }
 
+.dropdown-icon {
+    margin-left: auto;
+}
+
 /* _____________________ main _____________________ */
 
 .title {
