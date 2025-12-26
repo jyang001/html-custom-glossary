@@ -251,17 +251,25 @@ aside a:hover {
 }
 
 .new-section {
-    border: 2px solid purple;
-    padding: 1em;
     margin-block: 2em;
-}
-
-.main-page {
-    padding-inline: 5em;
+    line-height: 1.5;
 }
 
 .wrapper {
     max-inline-size: 1600px;
     margin-inline: 3%;
 }
+
+.main-page {
+    padding-inline: 5em;
+}
+
+.main-paragraph {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+
+
+
 
